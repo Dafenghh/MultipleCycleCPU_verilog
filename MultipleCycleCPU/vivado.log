@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Sat Jun 16 10:37:59 2018
+# Process ID: 15624
+# Current directory: D:/NEW/vivado/MultipleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15524 D:\NEW\vivado\MultipleCycleCPU\MultipleCycleCPU.xpr
+# Log file: D:/NEW/vivado/MultipleCycleCPU/vivado.log
+# Journal file: D:/NEW/vivado/MultipleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/xudaf/Documents/Coding/vivado/MultipleCycleCPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.3/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 733.516 ; gain = 180.164
+remove_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SingleCycleCPU.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+add_files -norecurse D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DBDR.v
+file delete -force D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DBDR.v
+close [ open D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v w ]
+add_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALUoutR.v
+file delete -force D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALUoutR.v
+remove_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/BDR.v
+file delete -force D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/BDR.v
+remove_files D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ADR.v
+file delete -force D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ADR.v
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v:1]
+[Sat Jun 16 20:06:15 2018] Launched synth_1...
+Run output will be captured here: D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v:1]
+[Sat Jun 16 20:11:30 2018] Launched synth_1...
+Run output will be captured here: D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v:1]
+[Sat Jun 16 20:15:46 2018] Launched synth_1...
+Run output will be captured here: D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/ControlUnit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/DataMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/IR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/InsMEM.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/RegisterFile.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library work [D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.srcs/sources_1/new/SignZeroExtend.v:1]
+[Sat Jun 16 20:20:24 2018] Launched synth_1...
+Run output will be captured here: D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 16 20:22:39 2018...
