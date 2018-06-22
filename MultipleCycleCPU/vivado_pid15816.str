@@ -1,0 +1,58 @@
+/*
+
+Vivado v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+Process ID: 15816
+
+Current time: 	6/20/18 5:14:07 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1368x912
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.3/tps/win64/jre
+
+User name: 	xudaf
+User home directory: C:/Users/xudaf
+User working directory: D:/NEW/vivado/MultipleCycleCPU
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/xudaf/AppData/Roaming/Xilinx/Vivado/2015.3/vivado.ini
+Vivado layouts directory: C:/Users/xudaf/AppData/Roaming/Xilinx/Vivado/2015.3/layouts
+
+GUI allocated memory:	149 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 354 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+64892kb) [00:00:24]
+// [Engine Memory]: 338 MB (+203065kb) [00:00:24]
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\NEW\vivado\MultipleCycleCPU\MultipleCycleCPU.xpr. Version: Vivado v2015.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.xpr 
+// [Engine Memory]: 371 MB (+16210kb) [00:00:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 375 MB. GUI used memory: 25 MB. Current time: 6/20/18 5:14:12 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/NEW/vivado/MultipleCycleCPU/MultipleCycleCPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 448 MB (+61837kb) [00:00:35]
